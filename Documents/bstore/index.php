@@ -1,1 +1,1 @@
-<?php readfile("/src/index.js"); ?>
+<?php readfile("../src/index.js"); ?>
