@@ -26,7 +26,10 @@ class App extends Component {
         }
       });
   }
-
+logout = () => {
+   localStorage.removeItem('jwtToken')
+   window.location.reload();
+ }
 
   render() {
     return (
